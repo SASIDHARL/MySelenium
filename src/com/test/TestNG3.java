@@ -3,7 +3,9 @@ package com.test;
 import org.testng.annotations.Test;
 
 public class TestNG3 {
-	
+	/**
+	 * this is testng interview question
+	 */
 	@Test
 	public void a(){}
 	@Test
