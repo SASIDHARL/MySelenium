@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="mytest">
+	<test name="MY">
+		<groups>
+			<dependencies>
+				<group name="c" depends-on="a"/>
+			</dependencies>
+		</groups>
+	</test>
+
+</suite>
